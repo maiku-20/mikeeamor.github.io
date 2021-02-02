@@ -1,0 +1,105 @@
+:root {
+  --color-cover: rgba(51, 51, 255, 0.8);
+}
+body {
+	background-image:url("asd.png");
+	background-repeat: no-repeat;
+	background-size: 88em 50em;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #33ffbb;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 40px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #00cc88;
+}
+.active {
+  background-color: #29293d;
+  color: white;
+
+}
+.logo-image{
+    width: 4px;
+    height: 5px;
+    overflow: top;
+    margin-top: -13px;
+	margin-left: 10px;
+}
+.da-gif {
+	margin-left: 130px;
+	margin-top: -430px;
+}
+input[type=text], input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: #00004d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  background-color: #000099;
+}
+
+.container {
+  padding: 16px;
+  border-radius: 1rem;
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 20px;
+
+}
+.modal-content {
+  background-color: #fefefe;
+  margin-top: 70px;
+  margin-left: 750px;
+  border: 1px solid #888;
+  border-radius: 1rem;
+  width: 35%; 
+}
+.textbox {
+	min-height: 120px;
+	width: 100%;
+	background-color: #e6e6ff;
+}
+#top {
+	font-size: 30px;
+}

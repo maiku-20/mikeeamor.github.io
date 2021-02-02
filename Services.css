@@ -1,0 +1,99 @@
+body {
+	background-image: url("dsa.jpg");
+	background-repeat: no-repeat;
+	background-size: 88em 50em;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #33ffbb;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+li {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 20px 40px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #00cc88;
+}
+.active {
+	background-color: #003d99;
+	color: white;
+
+}
+.logo-image{
+    width: 4px;
+    height: 5px;
+    overflow: top;
+    margin-top: -13px;
+	margin-left: 10px;
+	
+}
+#ser-gif {
+	float: right;
+	margin-right: 120px;
+	margin-top: 80px;
+}
+#enlarge {
+	color: #001a0f;
+	font-family: Tahoma, sans-serif;
+	float: left;
+	margin-top: 70px;
+	margin-left: 110px;
+	font-size: 50px;
+	text-shadow: 3px 2px #c1c1d7;
+}
+span.fix {
+	color: #001a0f;
+	font-family: fantasy, cooperplate;
+	font-size: 80px;
+	margin-left: 90px;
+	text-shadow: 3px 2px #00e68a;
+}
+#quote {
+	float: left;
+	margin-left: 113px;
+	margin-top: 15px;
+	font-family: sans-serif;
+	font-size: 20px;
+}
+span.only {
+	font-size: 17px;
+	font-style: italic;
+	color: #737373;
+}
+.sign {
+	float: left;
+	margin-left: 290px;
+	margin-top: 25px;
+	background-color: #33ffbb;
+	padding: 14px 20px;
+	border: none;
+	cursor: pointer;
+	border-radius: 1.5rem;
+}
+.signupbtn {
+	float: left;
+	width: 100%;
+	background-color: #33ffbb;
+	border: none;
+` 	font-size: 15px;
+	cursor: pointer;
+}
+a {
+	color: black;
+	text-decoration: none;
+}
